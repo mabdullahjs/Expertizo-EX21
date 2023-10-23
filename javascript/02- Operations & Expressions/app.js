@@ -167,8 +167,11 @@
 
 // &&
 // ||
-// let condition = 10 > 9 || 9 < 6;
-// let condition2 = 10 > 9 && 9 < 6;
+// let condition = 10 > 9 || 9 < 6 && 40 > 10 || 20 < 10 && 30 > 5;
+// console.log(condition);
+
+// let condition2 = 10 > 9 && 9 < 6 && 60 < 5 || 40 > 5 && 30 != 30 || 30 > 30 || 30 < 30 || 30 >= 30;
+// console.log(condition2);
 
 
 
