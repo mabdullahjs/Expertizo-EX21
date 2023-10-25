@@ -79,17 +79,17 @@
 // console.log('your children ' + userName + ' got ' + percentage +'% in examsabdu');
 
 
-const percentage = 81
+// const percentage = 81
 
-if (percentage >= 80) {
-    console.log('grade A+');
-} else if (percentage >= 70) {
-    console.log('grade A');
-} else if (percentage >= 60) {
-    console.log('grade B');
-} else {
-    console.log('Aalo lelo');
-}
+// if (percentage >= 80) {
+//     console.log('grade A+');
+// } else if (percentage >= 70) {
+//     console.log('grade A');
+// } else if (percentage >= 60) {
+//     console.log('grade B');
+// } else {
+//     console.log('Aalo lelo');
+// }
 
 
 
