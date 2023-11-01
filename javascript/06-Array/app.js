@@ -71,9 +71,13 @@
 
 
 
-let fruit = ['mango', 'orange', 'guava', 'banana', 'grapes']
+// let fruit = ['mango', 'orange', ['guawa', 'watermelon'], 'banana', 'grapes'];
 
-let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(fruit[2][0]);
+
+
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // fruit.push('watermelon') // add item at the end
 
@@ -89,13 +93,13 @@ let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // const newArr = num.slice(2 , 7)
 
-const names = 'Muhammad Abdullah khan';
+// const names = 'Muhammad Abdullah khan';
 
-const createArr = names.split(' ');
+// const createArr = names.split(' ');
 
-const fruitString = fruit.join()
+// const fruitString = fruit.join()
 
-console.log(createArr);
+// console.log(createArr);
 
 
 // console.log(newArr);

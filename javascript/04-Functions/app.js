@@ -61,28 +61,68 @@
 
 
 
-function sumOfTwoNum(num1, num2) {
-    // console.log(num1 + num2);
-    const sum = num1 + num2
-    return sum
+// function sumOfTwoNum(num1, num2) {
+//     // console.log(num1 + num2);
+//     const sum = num1 + num2
+//     return sum
+// }
+num1
+
+// console.log(sumOfTwoNum(5, 7));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// prompt ma 5 values loga name , p1 , p2 , price1 , price2
+//log your name is this and product 1 name is this and its price is this and product 2 name is this and total amount is this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let calculation = 29; // global variables
+function greetUser(userName){
+    // console.log('hello world ' + userName);
+    let age = 10; // local variables
+    return 'hello world' + userName + ' and his age is '+ age 
 }
 
+console.log(greetUser('abdullah'));
 
-console.log(sumOfTwoNum(5, 7));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(age);
 
 
 
