@@ -1,0 +1,1 @@
+create a simple html form and button, when user clicked on the button the table will print
