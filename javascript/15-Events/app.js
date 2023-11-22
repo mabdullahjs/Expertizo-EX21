@@ -403,4 +403,7 @@
 
 
 
-
+//regex
+//window object
+//asynchoronous
+//fetch api
