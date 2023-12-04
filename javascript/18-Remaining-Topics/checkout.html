@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <div class="container"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        let data = JSON.parse(localStorage.getItem('cartItems'));
+        console.log(data);
+        const div = document.querySelector('.container')
+        function renderData() {
+            div.innerHTML = ''
+            for (let i = 0; i < data.length; i++) {
+                div.innerHTML += `
+              <div class="p-5 border border-secondary-subtle m-5">
+              brand:${data[i].brand}<br/>
+              Model:${data[i].model}<br/>
+              price:${data[i].price}<br/>
+              <button class="btn btn-primary my-2" onclick="deleteItem(${i})">Delete</button>
+              </div> 
+            `
+            }
+        }
+        renderData()
+        function deleteItem(index) {
+            data.splice(index, 1);
+            renderData()
+            localStorage.setItem('cartItems',JSON.stringify(data))
+        }
+
+        // let arr = ['fruit' , 'vegees'];
+        // let arr2 = [...arr , 'tinda']
+        let obj = {
+            userName:'abc'
+        }
+        let obj2 = {
+            ...obj ,
+            age:20
+        }
+        console.log(obj2);
+    </script>
+</body>
+
+</html>
